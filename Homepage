@@ -1,0 +1,86 @@
+import React from 'react';
+
+function NailPage() {
+  return (
+    <div className="min-h-screen bg-gray-100">
+      {/* Hero Section */}
+      <section className="bg-pink-500 py-20 text-center text-white">
+        <h1 className="text-5xl font-bold">Stunning Nail Designs</h1>
+        <p className="mt-4 text-lg">Book your appointment today for the perfect nails!</p>
+        <button className="mt-6 px-8 py-3 bg-black text-white rounded-lg hover:bg-gray-800 transition duration-300">
+          Book Now
+        </button>
+      </section>
+
+      {/* Services Section */}
+      <section className="py-16 text-center" style={{ backgroundColor: '#ede3cc' }}>
+        <h2 className="text-3xl font-bold text-black">Our Nail Services</h2>
+        <div className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="bg-white p-8 shadow-lg rounded-lg">
+            <h3 className="text-2xl font-semibold text-black">Manicure</h3>
+            <p className="mt-4 text-gray-600">Get the perfect nails with our classic or gel manicure.</p>
+          </div>
+          <div className="bg-white p-8 shadow-lg rounded-lg">
+            <h3 className="text-2xl font-semibold text-black">Pedicure</h3>
+            <p className="mt-4 text-gray-600">Pamper your feet with our luxurious pedicure treatments.</p>
+          </div>
+          <div className="bg-white p-8 shadow-lg rounded-lg">
+            <h3 className="text-2xl font-semibold text-black">Nail Art</h3>
+            <p className="mt-4 text-gray-600">Add some flair with custom nail art to match your style.</p>
+          </div>
+        </div>
+      </section>
+
+      {/* Gallery Section */}
+      <section className="py-16 text-center bg-black text-white">
+        <h2 className="text-3xl font-bold">Gallery</h2>
+        <div className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="bg-white p-8 shadow-lg rounded-lg">
+            <img src="https://via.placeholder.com/150" alt="Nail Design 1" className="w-full h-auto rounded-lg"/>
+          </div>
+          <div className="bg-white p-8 shadow-lg rounded-lg">
+            <img src="https://via.placeholder.com/150" alt="Nail Design 2" className="w-full h-auto rounded-lg"/>
+          </div>
+          <div className="bg-white p-8 shadow-lg rounded-lg">
+            <img src="https://via.placeholder.com/150" alt="Nail Design 3" className="w-full h-auto rounded-lg"/>
+          </div>
+        </div>
+      </section>
+
+      {/* Booking Section */}
+      <section className="py-16 text-center" style={{ backgroundColor: '#ede3cc' }}>
+        <h2 className="text-3xl font-bold text-black">Ready to Get Started?</h2>
+        <p className="mt-4 text-gray-600">Book your appointment now and treat yourself to stunning nails.</p>
+        <button className="mt-6 px-8 py-3 bg-red-500 text-white rounded-lg hover:bg-red-600 transition duration-300">
+          Book an Appointment
+        </button>
+      </section>
+
+      {/* Testimonials Section */}
+      <section className="py-16 bg-gray-50 text-center">
+        <h2 className="text-3xl font-bold text-black">What Our Clients Say</h2>
+        <div className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="bg-white p-8 shadow-lg rounded-lg">
+            <p className="text-gray-600">"Best nail salon ever! My nails have never looked better."</p>
+            <h3 className="mt-4 text-black font-semibold">- Sarah</h3>
+          </div>
+          <div className="bg-white p-8 shadow-lg rounded-lg">
+            <p className="text-gray-600">"Amazing service and beautiful designs. Highly recommend!"</p>
+            <h3 className="mt-4 text-black font-semibold">- Emily</h3>
+          </div>
+          <div className="bg-white p-8 shadow-lg rounded-lg">
+            <p className="text-gray-600">"The nail art was exactly what I wanted. Such attention to detail."</p>
+            <h3 className="mt-4 text-black font-semibold">- Jessica</h3>
+          </div>
+        </div>
+      </section>
+
+      {/* Footer */}
+      <footer className="bg-black text-white py-6 text-center">
+        <p>&copy; 2024 Nail Salon. All rights reserved.</p>
+      </footer>
+    </div>
+  );
+}
+
+export default NailPage;
